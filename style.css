@@ -1,0 +1,82 @@
+*{
+    background-color: aquamarine;
+}
+
+.container{
+   background-color: aqua; 
+   width: 800px;  
+   height: 100px;
+   display: flex;
+   justify-content: space-evenly;
+   
+   gap: 5px;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+@media  only screen and (max-width: 900px){
+    *{
+        background-color: blue;
+    }
+    .caja{
+        background-color: brown;
+    }
+
+    .container{
+        background-color: blueviolet;
+    }
+}
+@media only  screen and (max-width: 1020px){
+    *{
+       background-color: rgb(10, 123, 143);
+   
+    }
+    .caja{
+       background-color:rgb(156, 48, 156);
+    }
+    .container{
+       background-color: rgb(48, 224, 107);
+    }
+   } 
+@media only  screen and (max-width: 700px){
+ *{
+    background-color: chocolate;
+
+ }
+ .caja{
+    background-color:cyan;
+ }
+ .container{
+    background-color: darkgoldenrod;
+ }
+} 
+
+@media only screen and (max-width: 500px){
+    *{background-color:yellowgreen;
+
+}
+.caja{
+    background-color:salmon;
+}
+.container{
+    background-color: purple;
+}
+}
+
+@media only  screen and (max-width: 300px){
+    *{
+       background-color:darkgreen;
+   
+    }
+    .caja{
+       background-color:darkolivegreen;
+    }
+    .container{
+       background-color:darkred;
+    }
+   } 
+
